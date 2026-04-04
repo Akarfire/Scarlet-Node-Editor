@@ -22,7 +22,7 @@ Hierarchical interpretation requires one of the two following node formats:
 </p>
 Each node can have as many Input/Output pins, but only one Output/Input one.
 
-
+---
 ### Language Interpretation
 
 This interpretation results in a sequence of root nodes, that are supposed to be interpreted sequentially. Each node in the sequence is, in fact, a root of a node tree, which this node depends on. To resolve the sequence, you would need to sequentially resolve root nodes, that, in their turn, require recursive resolution of descending branches.
