@@ -18,7 +18,7 @@ Root:
 
 Hierarchical interpretation requires one of the two following node formats:
 <p align="center">
-  <img src="../Images/TreeNodes.png"  width="50%">
+  <img src="./Images/TreeNodes.png"  width="50%">
 </p>
 Each node can have as many Input/Output pins, but only one Output/Input one.
 
@@ -50,7 +50,7 @@ Node_10
 
 Language Interpretation nodes, that are structured in a sequence, generally look like this:
 <p align="center">
-  <img src="../Images/LanguageNode.png"  width="50%">
+  <img src="./Images/LanguageNode.png"  width="50%">
 </p>
 Each node of the sequence must have a *Flow Input* and a *Flow Output* pin (exceptions to this rule are "border" nodes that only have one Flow pin: input or output). Such nodes can have as many secondary input and output pins. Inputs can come from either node trees, that branch out from this language node, or from outputs of other language nodes (output values are usually cached, so they can be used by the following nodes).
 
