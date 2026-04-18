@@ -1,0 +1,37 @@
+{
+	"nodes":[
+		{"id":"49e026b9290d7246","type":"group","x":-800,"y":-380,"width":2980,"height":999,"label":"Toolchain"},
+		{"id":"e8ac30eefeafbd90","type":"group","x":450,"y":-800,"width":480,"height":320,"color":"2","label":"Data Library"},
+		{"id":"ebdec58ee93b9d6f","type":"file","file":"Documentation/Interpretations/Hierarchical/Hierarchical Interpretation.md","x":680,"y":-220,"width":400,"height":160},
+		{"id":"3290ad117d122bb0","type":"file","file":"Documentation/Interpretations/Hierarchical/Hierarchical Evaluation.md","x":1240,"y":-220,"width":400,"height":99},
+		{"id":"7e01ca1f176b083a","type":"file","file":"Documentation/Interpretations/Hierarchical/Hierarchical Reflection.md","x":1240,"y":-81,"width":400,"height":134},
+		{"id":"2c45debc8ea60837","type":"text","text":"# Node Hierarchy","x":1240,"y":-360,"width":240,"height":60,"color":"4"},
+		{"id":"29f511db7a5eed8a","type":"file","file":"Documentation/Interpretations/Flow/Flow Interpretation.md","x":680,"y":199,"width":400,"height":263},
+		{"id":"6c631e8d367a4deb","type":"text","text":"# Node Flow","x":1240,"y":539,"width":180,"height":60,"color":"4"},
+		{"id":"a271f495afc3373c","type":"text","text":"# Evaluation Result","x":1880,"y":53,"width":260,"height":60,"color":"4"},
+		{"id":"daae429af26ba2c0","type":"text","text":"# Reflected Code","x":1880,"y":150,"width":260,"height":60,"color":"4"},
+		{"id":"b02f7017c0b6a04a","type":"file","file":"Documentation/Interpretations/Flow/Flow Reflection.md","x":1240,"y":350,"width":400,"height":137},
+		{"id":"dbe7f34464e4a71f","type":"file","file":"Documentation/Interpretations/Flow/Flow Evaluation.md","x":1240,"y":199,"width":400,"height":98},
+		{"id":"98166f632e5bd177","type":"file","file":"Documentation/Interpretations/Node Interpretations.md","x":100,"y":-6,"width":400,"height":205},
+		{"id":"395f71dcf97ee8d1","type":"file","file":"Documentation/Data Formats/Editor Data Format.md","x":-421,"y":13,"width":381,"height":167},
+		{"id":"43dc60d66ffb6a6b","type":"text","text":"# GUI Editor","x":-720,"y":67,"width":180,"height":60,"color":"1"},
+		{"id":"f971231eb75c37e9","type":"file","file":"Documentation/Data Formats/Node Data.md","x":489,"y":-720,"width":380,"height":167}
+	],
+	"edges":[
+		{"id":"b596808d83342722","fromNode":"395f71dcf97ee8d1","fromSide":"right","toNode":"98166f632e5bd177","toSide":"left"},
+		{"id":"0ca33e643fc95ec2","fromNode":"98166f632e5bd177","fromSide":"right","toNode":"ebdec58ee93b9d6f","toSide":"left"},
+		{"id":"9dc93ce95bb2ee26","fromNode":"98166f632e5bd177","fromSide":"right","toNode":"29f511db7a5eed8a","toSide":"left"},
+		{"id":"0c7a13ee830f1b29","fromNode":"43dc60d66ffb6a6b","fromSide":"right","toNode":"395f71dcf97ee8d1","toSide":"left"},
+		{"id":"1ed0c6bf1ed0c63b","fromNode":"ebdec58ee93b9d6f","fromSide":"right","toNode":"2c45debc8ea60837","toSide":"left"},
+		{"id":"62df24a594932e90","fromNode":"29f511db7a5eed8a","fromSide":"right","toNode":"6c631e8d367a4deb","toSide":"left"},
+		{"id":"95f7e14be18d7b59","fromNode":"29f511db7a5eed8a","fromSide":"right","toNode":"b02f7017c0b6a04a","toSide":"left"},
+		{"id":"45a139f7dd1cfca2","fromNode":"29f511db7a5eed8a","fromSide":"right","toNode":"dbe7f34464e4a71f","toSide":"left"},
+		{"id":"9b394f65ce293517","fromNode":"ebdec58ee93b9d6f","fromSide":"right","toNode":"3290ad117d122bb0","toSide":"left"},
+		{"id":"572312c954907066","fromNode":"ebdec58ee93b9d6f","fromSide":"right","toNode":"7e01ca1f176b083a","toSide":"left"},
+		{"id":"9ae93d91cfb3db74","fromNode":"3290ad117d122bb0","fromSide":"right","toNode":"a271f495afc3373c","toSide":"left"},
+		{"id":"d681019ef73a444b","fromNode":"dbe7f34464e4a71f","fromSide":"right","toNode":"a271f495afc3373c","toSide":"left"},
+		{"id":"6ece42622652c5a1","fromNode":"7e01ca1f176b083a","fromSide":"right","toNode":"daae429af26ba2c0","toSide":"left"},
+		{"id":"e6f65b96a13e3e5f","fromNode":"b02f7017c0b6a04a","fromSide":"right","toNode":"daae429af26ba2c0","toSide":"left"},
+		{"id":"a6cd9472b5c37ea8","fromNode":"e8ac30eefeafbd90","fromSide":"bottom","toNode":"49e026b9290d7246","toSide":"top"}
+	]
+}

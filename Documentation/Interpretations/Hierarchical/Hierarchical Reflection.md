@@ -1,0 +1,1 @@
+Reflecting **Hierarchical node interpretation** into simple code in an arbitrary language using macro-like unwrapping.

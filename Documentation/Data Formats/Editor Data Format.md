@@ -13,8 +13,10 @@ During editing, node graph is stored as an array of node data structures, that c
 			"out_pin_1" : {"Node_4" : ["in_pin_1"]}, 
 			"out_pin_2" : {"Node_4" : ["in_pin_2"]}, 
 			...},
-		"edit_data" : 
-		{
+		"node_configuration" : {
+			...
+		},
+		"edit_data" : {
 			"position" : [x, y],
 			...
 		}
