@@ -7,10 +7,23 @@ Hierarchical node interpretation is primarily designed for systems that directly
 
 ![](Images/NodeTreePrincipal.png)
 
-*NOTE: Missing inputs are marked as NONE (or `nullptr` on C++ side)*
+*Example resulting node hierarchy*
+```c++
+Root:
+	(Node_1, out_0):
+		(Node_2, out_0):
+			(Node_4, out_0),
+			(Node_5, out_0),
+			(Node_4, out_0)
+		(Node_3, out_1):
+			(Node_6, out_0),
+			NONE
+			(Node_6, out_1)
+		NONE
+```
+*NOTE: Missing inputs are marked as NONE*
 
-Hierarchical interpretation requires one of the two following node formats:
+Hierarchical interpretation requires the following node format:
 <p align="center">
   <img src="../../Images/TreeNode.png"  width="50%">
 </p>
-Each node can have as many *Input* pins, but only one *Output* pin.
