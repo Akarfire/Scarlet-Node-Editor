@@ -2,6 +2,7 @@
 *Example resulting flow*
 
 **Flow Chart**:
+Contains information about the node graph's execution order.
 ```c++
 Node_0:
 	Node_1
@@ -24,7 +25,8 @@ Node_5:
 	Node_6	
 ```
 
-**Data Chart**:
+**Input Chart**:
+Contains information about each node's inputs.
 ```c++
 Node_0:
 
