@@ -2,6 +2,8 @@
 
 Framework for creating node editors for various purposes.
 
+**Status: Pre-production, Planning**
+
 *NOTE: Documentation (this readme included) is designed to be opened in Obsidian.*
 
 ---
