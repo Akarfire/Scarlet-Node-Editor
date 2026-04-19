@@ -11,6 +11,6 @@ Hierarchical node interpretation is primarily designed for systems that directly
 
 Hierarchical interpretation requires one of the two following node formats:
 <p align="center">
-  <img src="./Images/TreeNode.png"  width="50%">
+  <img src="../../Images/TreeNode.png"  width="50%">
 </p>
 Each node can have as many *Input* pins, but only one *Output* pin.
